@@ -44,9 +44,13 @@ public class WebSecurityProvider {
 
     @Bean
     public FirebaseAuth firebaseAuth() throws Exception {
-
-        URL resource = getClass().getClassLoader().getResource(authBuilder.getFirebaseConfig());
-        if(resource!=null) {
+        URL resource = null;
+        if (authBuilder.getConfigPath() != null) {
+            resource = authBuilder.getConfigPath();
+        } else {
+            resource = getClass().getClassLoader().getResource(authBuilder.getFirebaseConfig());
+        }
+        if (resource != null) {
             FileInputStream serviceAccount = new FileInputStream(
                     resource.getFile());
 

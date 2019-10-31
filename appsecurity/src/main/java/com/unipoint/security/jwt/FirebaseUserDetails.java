@@ -1,8 +1,10 @@
 package com.unipoint.security.jwt;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 public class FirebaseUserDetails implements UserDetails {
@@ -15,6 +17,7 @@ public class FirebaseUserDetails implements UserDetails {
 	private final String password = null;
 	private String username = null;
 	private String id = null;
+	Collection<SimpleGrantedAuthority> grantedAuthorities;
 
 	public FirebaseUserDetails(String email, String uid) {
 		this.username = email;
@@ -22,9 +25,12 @@ public class FirebaseUserDetails implements UserDetails {
 	}
 
 	@Override
-	public Collection<? extends GrantedAuthority> getAuthorities() {
-		// TODO Auto-generated method stub
-		return null;
+	public Collection<SimpleGrantedAuthority> getAuthorities() {
+		if(grantedAuthorities==null)
+		{
+			grantedAuthorities = new ArrayList<>();
+		}
+		return grantedAuthorities;
 	}
 
 	public String getUsername() {
