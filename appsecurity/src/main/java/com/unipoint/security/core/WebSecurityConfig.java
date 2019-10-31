@@ -78,27 +78,18 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         httpSecurity
                 .cors()
                 .and()
-                // we don't need CSRF because our token is invulnerable
                 .csrf().disable()
-                // All urls must be authenticated (filter for token always fires (/**)
                 .authorizeRequests()
                 .antMatchers(HttpMethod.OPTIONS).permitAll()
                 .antMatchers("/v2/api-docs").permitAll()
                 .antMatchers("/swagger-ui.html").permitAll()
-                //.antMatchers( "/id-token" ).permitAll()
                 .antMatchers(authBuilder.getAuthPath()).authenticated()
                 .anyRequest().authenticated()
                 .and()
                 .exceptionHandling().accessDeniedHandler(accessDeniedHandler()).authenticationEntryPoint(authenticationEntryPoint())
                 .and()
-                // don't create session
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS); //.and()
-        // Custom JWT based security filter
         httpSecurity
                 .addFilterBefore(authenticationTokenFilterBean(), UsernamePasswordAuthenticationFilter.class);
-
-
-        // disable page caching
-        // httpSecurity.headers().cacheControl();
     }
 }
