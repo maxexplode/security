@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "unipointconsumerapp",
+  "private_key_id": "088570342af2057761a64f76051ae5a1fa68db8f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCOymlsLTY9ftvP\nFaBYvibJr3GmSq+zW+sKBU6MdOc9+pCFtaD/JCZ8vX8O/EJPLpjNlpCO/u2ESU5j\neCwjurFzit1lrYmvtfJurI9L5PdW+Rt+dGsB7rQVmHxxsRM4HTE7JebeescW8Cli\nqatwDGWdwvPslILT8izvyS5vjcwPNfG/eeE+D1EmUuQAn59xMPlzUsz2c21E08Gt\naNIaRUgMN4LwSK4I0Rjqt+LgpOg9kGTU0b6NWilDqrc+xiJiywwCFVZXHjXu8gwi\nMnjy3hUNe4TWBZ1ISPuUzCSZSYdOnjpNsh0uHykyPOxratVFyPiBqHsVRct1gCfN\n4jNUTfMzAgMBAAECggEAElnj3/SU5U+0eDzTSr8axQ44kPfwSiDPaDjztgwgMVBO\nhUtT0aFCa62pnVzA447y3G6JTZdodyPktdaaoEznbsNeCNSbaWr80/R2xiOQa4EV\nuNQaxzjNCX7QyjEebeEdPqN0XwtweCY4FhIFknTwFQJvzuvslHNUtcx+nJ+gpiOb\ne6O8IfDq4T/vcS/M6CMJHQZkJ6AemmrXLnI2O2uReX206mctqvI+3FBOSWbUIp3C\n4ZRc5NN92NClwz7RA011SFI3/yFtSy//xgbuBUJRI4RjejB/cVSf+oEko5DffN1U\nKTmDzdGgZ4bACwOrhwUzY9U2iJKvLXg3MlhOADfsoQKBgQDIww/sYUVy4FElqYHa\nBV5uovXHG/ZHgP0H0P6NIIdLmt0INik8n4RH87AfiAH59j4ykmLb18Hab7BogwA2\npRPilZadsjSLfKKNLlZzSvlcwcwLLHJ90wIZLzsqf3GObWa+iGMgQYmI2Kuw4ki4\n75QpVmYKtKrxOlfkE524qOIhhQKBgQC2FBBm5Bd9g3rFuO1xDIIPnUaTjPSCNS94\nDIRjR5PaVB5trKpczN+/YVBOTAokqReXZA1D70BJREeC7wU2xUJZbtxTXs0AV5Cc\njkLAwbKt0ygRwe5q+5OZmUiLFHLEoUh5GXhAlOJa0EB6axJuXBnTt4pr5+H7f3YY\nC1Vy6dADVwKBgQCl6EUtdAkfcO6+cAFGOe+bAIKZ46q31onEPttNp1cHjNgiZBfZ\n6H05tNGUjSIM/ojR5BVcVkX2DRy8kZ3Iis0PD82jTlSL/RicEXIR3yCJngHQLhAD\nmS//vf9oFF+0cwZYaH96dY6CD4R7LdUpN5u6OZMkP7+QkEV3zxolMzOEvQKBgCcv\n8EvEwY2A87aEU44mLAPiTKNLDgDMI5hJ0WBwslCmFBp0tAHfEjTlY9xGH1S+k9ZA\ncV5yqrpaGK4EdXHRSLNo2cCTwblWH0iikZlc1vD0ZkZUH9UkqiK/y84rK3xIXgm6\nQphbss/qzEXMr53S8rgPY5pPwOJZD3ijT9O4oM1nAoGANnhTs6Gy+nfthn4Fndiu\n7NQYwvl38OagZFYyMEHruehOiLc8csnEN4SJBc1vCrgSqdjTUmIDTwIqxth6BXE4\nDvzJ3/JOthXeODEZL9R7E7kB0cQLY6CI2xzmKfSs90LiR6RMLqRGCoBS6XZoI2+F\nz0MHPGIiwEwwJoxVkG20eMA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-l59vz@unipointconsumerapp.iam.gserviceaccount.com",
+  "client_id": "102169840179304443846",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-l59vz%40unipointconsumerapp.iam.gserviceaccount.com"
+}
